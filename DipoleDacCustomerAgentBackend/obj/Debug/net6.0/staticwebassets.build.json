@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "NQaLr/kySzH7UZ/cqbHEDo8jh98H7SMOD1B5yntP00k=",
+  "Source": "DipoleDacCustomerAgentBackend",
+  "BasePath": "_content/DipoleDacCustomerAgentBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
