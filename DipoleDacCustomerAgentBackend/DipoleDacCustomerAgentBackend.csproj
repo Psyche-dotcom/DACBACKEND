@@ -27,10 +27,4 @@
 	  <ProjectReference Include="..\DacBackend.Model\DacBackend.Model.csproj" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="Controllers\" />
-	  <Folder Include="Service\Interface\" />
-	  <Folder Include="Service\Implementation\" />
-	</ItemGroup>
-
 </Project>
