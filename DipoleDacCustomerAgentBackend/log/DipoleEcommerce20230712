@@ -799,3 +799,809 @@ System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport
 2023-07-12 18:11:00.800 +01:00 [DBG] Connection id "0HMS2VBPF3O5C" is closed. The last processed stream ID was 7.
 2023-07-12 18:11:00.806 +01:00 [DBG] Connection id "0HMS2VBPF3O5C" sending FIN because: "The client closed the connection."
 2023-07-12 18:11:00.821 +01:00 [DBG] Connection id "0HMS2VBPF3O5C" stopped.
+2023-07-12 22:00:52.227 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-12 22:00:52.524 +01:00 [DBG] Hosting starting
+2023-07-12 22:00:52.947 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 00D5B8A748A32CF248CC35D3C1B514BD27DFD320)
+2023-07-12 22:00:53.038 +01:00 [INF] Now listening on: https://localhost:7272
+2023-07-12 22:00:53.040 +01:00 [INF] Now listening on: http://localhost:5000
+2023-07-12 22:00:53.042 +01:00 [DBG] Loaded hosting startup assembly DipoleDacCustomerAgentBackend
+2023-07-12 22:00:53.043 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-12 22:00:53.044 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-12 22:00:53.045 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-12 22:00:53.047 +01:00 [INF] Hosting environment: Development
+2023-07-12 22:00:53.056 +01:00 [INF] Content root path: C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\
+2023-07-12 22:00:53.058 +01:00 [DBG] Hosting started
+2023-07-12 22:00:53.078 +01:00 [DBG] Connection id "0HMS33CA4HEC3" accepted.
+2023-07-12 22:00:53.078 +01:00 [DBG] Connection id "0HMS33CA4HEC4" accepted.
+2023-07-12 22:00:53.082 +01:00 [DBG] Connection id "0HMS33CA4HEC4" started.
+2023-07-12 22:00:53.082 +01:00 [DBG] Connection id "0HMS33CA4HEC3" started.
+2023-07-12 22:00:55.323 +01:00 [DBG] Connection id "0HMS33CA4HEC5" accepted.
+2023-07-12 22:00:55.537 +01:00 [DBG] Connection id "0HMS33CA4HEC5" started.
+2023-07-12 22:00:55.668 +01:00 [DBG] Connection 0HMS33CA4HEC5 established using the following protocol: "Tls13"
+2023-07-12 22:00:55.863 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/index.html - -
+2023-07-12 22:00:56.006 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-12 22:00:56.070 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-12 22:00:56.073 +01:00 [DBG] Request did not match any endpoints
+2023-07-12 22:00:56.362 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-12 22:00:56.857 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-12 22:00:56.892 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/index.html - - - 200 - text/html;charset=utf-8 1041.2525ms
+2023-07-12 22:00:57.353 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_vs/browserLink - -
+2023-07-12 22:00:57.354 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - -
+2023-07-12 22:00:57.374 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - - - 200 12028 application/javascript;+charset=utf-8 20.4343ms
+2023-07-12 22:00:57.598 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 245.4474ms
+2023-07-12 22:00:57.714 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - -
+2023-07-12 22:00:57.716 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-12 22:00:57.717 +01:00 [DBG] Request did not match any endpoints
+2023-07-12 22:00:58.028 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 314.0180ms
+2023-07-12 22:01:01.091 +01:00 [DBG] Connection id "0HMS33CA4HEC5" received FIN.
+2023-07-12 22:01:01.110 +01:00 [DBG] Connection id "0HMS33CA4HEC5" is closed. The last processed stream ID was 7.
+2023-07-12 22:01:01.113 +01:00 [DBG] Connection id "0HMS33CA4HEC5" sending FIN because: "The client closed the connection."
+2023-07-12 22:01:01.134 +01:00 [DBG] Connection id "0HMS33CA4HEC5" stopped.
+2023-07-12 22:01:03.410 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-07-12 22:01:03.410 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-07-12 22:01:03.411 +01:00 [DBG] Connection id "0HMS33CA4HEC3" stopped.
+2023-07-12 22:01:03.413 +01:00 [DBG] Connection id "0HMS33CA4HEC4" stopped.
+2023-07-12 22:01:03.415 +01:00 [DBG] Connection id "0HMS33CA4HEC3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 22:01:03.417 +01:00 [DBG] Connection id "0HMS33CA4HEC4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 22:01:39.235 +01:00 [DBG] Connection id "0HMS33CA4HEC6" accepted.
+2023-07-12 22:01:39.277 +01:00 [DBG] Connection id "0HMS33CA4HEC6" started.
+2023-07-12 22:01:39.305 +01:00 [DBG] Connection 0HMS33CA4HEC6 established using the following protocol: "Tls13"
+2023-07-12 22:01:39.318 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7272/api/bank/dac/bvn application/json 65
+2023-07-12 22:01:39.339 +01:00 [DBG] 1 candidate(s) found for the request path '/api/bank/dac/bvn'
+2023-07-12 22:01:39.351 +01:00 [DBG] Endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)' with route pattern 'api/bank/dac/bvn' is valid for the request path '/api/bank/dac/bvn'
+2023-07-12 22:01:39.355 +01:00 [DBG] Request matched endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:01:39.363 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-12 22:01:39.372 +01:00 [INF] Executing endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:01:39.477 +01:00 [INF] Route matched with {action = "RequestBvn", controller = "Bank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RequestBvn(DacBackend.Model.Dto.RequestDto) on controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend).
+2023-07-12 22:01:39.482 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-12 22:01:39.484 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-12 22:01:39.487 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-12 22:01:39.490 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-12 22:01:39.494 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-12 22:01:39.498 +01:00 [DBG] Executing controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:01:39.547 +01:00 [DBG] Executed controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:01:39.590 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:01:39.598 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' using the name '' in request data ...
+2023-07-12 22:01:39.604 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-12 22:01:39.621 +01:00 [DBG] Connection id "0HMS33CA4HEC6", Request id "0HMS33CA4HEC6:00000001": started reading request body.
+2023-07-12 22:01:39.624 +01:00 [DBG] Connection id "0HMS33CA4HEC6", Request id "0HMS33CA4HEC6:00000001": done reading request body.
+2023-07-12 22:01:39.639 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DacBackend.Model.Dto.RequestDto'
+2023-07-12 22:01:39.642 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:01:39.645 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:01:39.647 +01:00 [DBG] Attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:01:39.673 +01:00 [DBG] Done attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:01:52.904 +01:00 [INF] Start processing HTTP request POST "https://nodered.dipolediamond.com/dac/account/bvn"
+2023-07-12 22:01:52.908 +01:00 [INF] Sending HTTP request POST "https://nodered.dipolediamond.com/dac/account/bvn"
+2023-07-12 22:01:54.957 +01:00 [INF] Received HTTP response headers after 2038.6462ms - 200
+2023-07-12 22:01:54.963 +01:00 [INF] End processing HTTP request after 2061.4585ms - 200
+2023-07-12 22:02:08.145 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-07-12 22:02:08.154 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-07-12 22:02:08.156 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-12 22:02:08.157 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-12 22:02:08.159 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-12 22:02:08.161 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'DacBackend.Model.Dto.BvnResponseDto'.
+2023-07-12 22:02:08.210 +01:00 [INF] Executed action DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend) in 28680.5051ms
+2023-07-12 22:02:08.213 +01:00 [INF] Executed endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:02:08.217 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7272/api/bank/dac/bvn application/json 65 - 400 - application/json;+charset=utf-8 28898.9315ms
+2023-07-12 22:02:25.179 +01:00 [DBG] Connection id "0HMS33CA4HEC6" received FIN.
+2023-07-12 22:02:25.181 +01:00 [DBG] Connection id "0HMS33CA4HEC6" is closed. The last processed stream ID was 1.
+2023-07-12 22:02:25.184 +01:00 [DBG] Connection id "0HMS33CA4HEC6" sending FIN because: "The client closed the connection."
+2023-07-12 22:02:25.201 +01:00 [DBG] Connection id "0HMS33CA4HEC6" stopped.
+2023-07-12 22:03:39.558 +01:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IAccountHttpService'
+2023-07-12 22:03:47.470 +01:00 [DBG] Connection id "0HMS33CA4HEC7" accepted.
+2023-07-12 22:03:47.477 +01:00 [DBG] Connection id "0HMS33CA4HEC7" received FIN.
+2023-07-12 22:03:47.480 +01:00 [DBG] Connection id "0HMS33CA4HEC7" started.
+2023-07-12 22:03:47.480 +01:00 [DBG] Connection id "0HMS33CA4HEC8" accepted.
+2023-07-12 22:03:47.510 +01:00 [DBG] Connection id "0HMS33CA4HEC8" started.
+2023-07-12 22:03:47.646 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 22:03:47.649 +01:00 [DBG] Connection 0HMS33CA4HEC8 established using the following protocol: "Tls13"
+2023-07-12 22:03:47.782 +01:00 [DBG] Connection id "0HMS33CA4HEC7" stopped.
+2023-07-12 22:03:47.784 +01:00 [DBG] Connection id "0HMS33CA4HEC7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 22:03:47.815 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7272/api/bank/dac/bvn - 0
+2023-07-12 22:03:47.818 +01:00 [DBG] 1 candidate(s) found for the request path '/api/bank/dac/bvn'
+2023-07-12 22:03:47.820 +01:00 [DBG] Endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)' with route pattern 'api/bank/dac/bvn' is valid for the request path '/api/bank/dac/bvn'
+2023-07-12 22:03:47.824 +01:00 [DBG] Request matched endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:03:47.826 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-12 22:03:47.827 +01:00 [INF] Executing endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:03:47.829 +01:00 [INF] Route matched with {action = "RequestBvn", controller = "Bank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RequestBvn(DacBackend.Model.Dto.RequestDto) on controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend).
+2023-07-12 22:03:47.832 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-12 22:03:47.834 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-12 22:03:47.835 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-12 22:03:47.840 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-12 22:03:47.842 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-12 22:03:47.845 +01:00 [DBG] Executing controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:03:47.847 +01:00 [DBG] Executed controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:03:47.862 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:03:47.865 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' using the name '' in request data ...
+2023-07-12 22:03:47.870 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'null'.
+2023-07-12 22:03:47.873 +01:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerInputFormatter' for content type 'null'.
+2023-07-12 22:03:47.877 +01:00 [DBG] No input formatter was found to support the content type 'null' for use with the [FromBody] attribute.
+2023-07-12 22:03:47.882 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:03:47.885 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:03:47.888 +01:00 [DBG] Attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:03:47.896 +01:00 [DBG] Done attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:03:47.900 +01:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter'.
+2023-07-12 22:03:47.903 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-07-12 22:03:47.907 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-07-12 22:03:47.909 +01:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2023-07-12 22:03:47.912 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2023-07-12 22:03:47.914 +01:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2023-07-12 22:03:47.927 +01:00 [INF] Executed action DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend) in 81.6914ms
+2023-07-12 22:03:47.931 +01:00 [INF] Executed endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:03:47.932 +01:00 [DBG] Connection id "0HMS33CA4HEC8" completed keep alive response.
+2023-07-12 22:03:47.933 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7272/api/bank/dac/bvn - 0 - 415 - application/problem+json;+charset=utf-8 117.9616ms
+2023-07-12 22:03:49.580 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:03:49.593 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0711ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:03:59.601 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:03:59.605 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:04:09.616 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:04:09.618 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:04:19.622 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:04:19.623 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:04:29.632 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:04:29.634 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:04:39.650 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:04:39.652 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:04:48.056 +01:00 [INF] Request starting HTTP/1.1 POST https://localhost:7272/api/bank/dac/bvn application/json 70
+2023-07-12 22:04:48.060 +01:00 [DBG] 1 candidate(s) found for the request path '/api/bank/dac/bvn'
+2023-07-12 22:04:48.062 +01:00 [DBG] Endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)' with route pattern 'api/bank/dac/bvn' is valid for the request path '/api/bank/dac/bvn'
+2023-07-12 22:04:48.065 +01:00 [DBG] Request matched endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:04:48.066 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-12 22:04:48.068 +01:00 [INF] Executing endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:04:48.071 +01:00 [INF] Route matched with {action = "RequestBvn", controller = "Bank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RequestBvn(DacBackend.Model.Dto.RequestDto) on controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend).
+2023-07-12 22:04:48.073 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-12 22:04:48.076 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-12 22:04:48.079 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-12 22:04:48.081 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-12 22:04:48.083 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-12 22:04:48.085 +01:00 [DBG] Executing controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:04:48.095 +01:00 [DBG] Executed controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:04:48.099 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:04:48.101 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' using the name '' in request data ...
+2023-07-12 22:04:48.104 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-12 22:04:48.111 +01:00 [DBG] Connection id "0HMS33CA4HEC8", Request id "0HMS33CA4HEC8:00000003": started reading request body.
+2023-07-12 22:04:48.114 +01:00 [DBG] Connection id "0HMS33CA4HEC8", Request id "0HMS33CA4HEC8:00000003": done reading request body.
+2023-07-12 22:04:48.116 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DacBackend.Model.Dto.RequestDto'
+2023-07-12 22:04:48.117 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:04:48.121 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:04:48.123 +01:00 [DBG] Attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:04:48.124 +01:00 [DBG] Done attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:04:53.733 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:05:01.977 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:05:03.942 +01:00 [INF] Start processing HTTP request POST "https://nodered.dipolediamond.com/dac/account/bvn"
+2023-07-12 22:05:03.944 +01:00 [INF] Sending HTTP request POST "https://nodered.dipolediamond.com/dac/account/bvn"
+2023-07-12 22:05:04.940 +01:00 [INF] Received HTTP response headers after 994.3282ms - 200
+2023-07-12 22:05:04.942 +01:00 [INF] End processing HTTP request after 1000.0005ms - 200
+2023-07-12 22:05:13.937 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:05:13.973 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:05:23.405 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-07-12 22:05:23.409 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-07-12 22:05:23.410 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-12 22:05:23.412 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-12 22:05:23.414 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-12 22:05:23.416 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'DacBackend.Model.Dto.BvnResponseDto'.
+2023-07-12 22:05:23.418 +01:00 [INF] Executed action DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend) in 35333.0922ms
+2023-07-12 22:05:23.420 +01:00 [INF] Executed endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:05:23.420 +01:00 [DBG] Connection id "0HMS33CA4HEC8" completed keep alive response.
+2023-07-12 22:05:23.422 +01:00 [INF] Request finished HTTP/1.1 POST https://localhost:7272/api/bank/dac/bvn application/json 70 - 400 - application/json;+charset=utf-8 35365.3322ms
+2023-07-12 22:05:24.016 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:05:24.028 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:05:34.065 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:05:34.067 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:05:44.088 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:05:44.090 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0081ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:05:47.861 +01:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IAccountHttpService'
+2023-07-12 22:05:54.101 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:05:54.103 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:06:04.116 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:06:04.118 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:06:14.124 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:06:14.126 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:06:24.135 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:06:24.136 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:06:34.141 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:06:34.144 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:06:44.164 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:06:44.166 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:06:54.171 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:06:54.172 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:07:04.186 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:07:04.188 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:07:14.202 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:07:14.204 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:07:24.214 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:07:24.215 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:07:34.230 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:07:34.232 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0046ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:07:44.243 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:07:44.244 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:07:54.256 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:07:54.264 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:08:04.285 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:08:04.287 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:08:14.300 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:08:14.301 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:08:24.310 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:08:24.312 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:08:34.329 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:08:34.331 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:08:44.334 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:08:44.335 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:08:54.346 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:08:54.348 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0043ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:09:04.360 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:09:04.360 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:09:14.368 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:09:14.369 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:09:24.385 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:09:24.386 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:09:34.390 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:09:34.393 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:09:44.410 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:09:44.412 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:09:54.420 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:09:54.423 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:10:04.433 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:10:04.436 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:10:14.449 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:10:14.450 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:10:24.467 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:10:24.469 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:10:34.484 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2023-07-12 22:10:34.486 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 2 items
+2023-07-12 22:12:18.808 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-12 22:12:19.103 +01:00 [DBG] Hosting starting
+2023-07-12 22:12:19.526 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 00D5B8A748A32CF248CC35D3C1B514BD27DFD320)
+2023-07-12 22:12:19.630 +01:00 [INF] Now listening on: https://localhost:7272
+2023-07-12 22:12:19.632 +01:00 [INF] Now listening on: http://localhost:5000
+2023-07-12 22:12:19.633 +01:00 [DBG] Loaded hosting startup assembly DipoleDacCustomerAgentBackend
+2023-07-12 22:12:19.634 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-12 22:12:19.636 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-12 22:12:19.637 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-12 22:12:19.639 +01:00 [INF] Hosting environment: Development
+2023-07-12 22:12:19.655 +01:00 [INF] Content root path: C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\
+2023-07-12 22:12:19.656 +01:00 [DBG] Hosting started
+2023-07-12 22:12:19.827 +01:00 [DBG] Connection id "0HMS33IMPS6QG" accepted.
+2023-07-12 22:12:19.827 +01:00 [DBG] Connection id "0HMS33IMPS6QF" accepted.
+2023-07-12 22:12:19.831 +01:00 [DBG] Connection id "0HMS33IMPS6QG" started.
+2023-07-12 22:12:19.831 +01:00 [DBG] Connection id "0HMS33IMPS6QF" started.
+2023-07-12 22:12:19.845 +01:00 [DBG] Connection id "0HMS33IMPS6QG" received FIN.
+2023-07-12 22:12:19.845 +01:00 [DBG] Connection id "0HMS33IMPS6QF" received FIN.
+2023-07-12 22:12:20.031 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 22:12:20.031 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 22:12:20.113 +01:00 [DBG] Connection id "0HMS33IMPS6QG" stopped.
+2023-07-12 22:12:20.113 +01:00 [DBG] Connection id "0HMS33IMPS6QF" stopped.
+2023-07-12 22:12:20.123 +01:00 [DBG] Connection id "0HMS33IMPS6QF" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 22:12:20.123 +01:00 [DBG] Connection id "0HMS33IMPS6QG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 22:12:21.687 +01:00 [DBG] Connection id "0HMS33IMPS6QH" accepted.
+2023-07-12 22:12:21.953 +01:00 [DBG] Connection id "0HMS33IMPS6QH" started.
+2023-07-12 22:12:22.166 +01:00 [DBG] Connection 0HMS33IMPS6QH established using the following protocol: "Tls13"
+2023-07-12 22:12:22.285 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/index.html - -
+2023-07-12 22:12:22.367 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-12 22:12:22.419 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-12 22:12:22.422 +01:00 [DBG] Request did not match any endpoints
+2023-07-12 22:12:22.632 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-12 22:12:22.907 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-12 22:12:22.915 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/index.html - - - 200 - text/html;charset=utf-8 637.0096ms
+2023-07-12 22:12:23.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - -
+2023-07-12 22:12:23.504 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_vs/browserLink - -
+2023-07-12 22:12:23.523 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - - - 200 12028 application/javascript;+charset=utf-8 19.2416ms
+2023-07-12 22:12:23.593 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 89.3353ms
+2023-07-12 22:12:23.689 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - -
+2023-07-12 22:12:23.690 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-12 22:12:23.691 +01:00 [DBG] Request did not match any endpoints
+2023-07-12 22:12:23.963 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 274.7716ms
+2023-07-12 22:12:26.248 +01:00 [DBG] Connection id "0HMS33IMPS6QH" received FIN.
+2023-07-12 22:12:26.264 +01:00 [DBG] Connection id "0HMS33IMPS6QH" is closed. The last processed stream ID was 7.
+2023-07-12 22:12:26.266 +01:00 [DBG] Connection id "0HMS33IMPS6QH" sending FIN because: "The client closed the connection."
+2023-07-12 22:12:26.284 +01:00 [DBG] Connection id "0HMS33IMPS6QH" stopped.
+2023-07-12 22:12:58.700 +01:00 [DBG] Connection id "0HMS33IMPS6QI" accepted.
+2023-07-12 22:12:58.710 +01:00 [DBG] Connection id "0HMS33IMPS6QI" started.
+2023-07-12 22:12:58.727 +01:00 [DBG] Connection 0HMS33IMPS6QI established using the following protocol: "Tls13"
+2023-07-12 22:12:58.730 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7272/api/bank/dac/bvn application/json 57
+2023-07-12 22:12:58.745 +01:00 [DBG] 1 candidate(s) found for the request path '/api/bank/dac/bvn'
+2023-07-12 22:12:58.751 +01:00 [DBG] Endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)' with route pattern 'api/bank/dac/bvn' is valid for the request path '/api/bank/dac/bvn'
+2023-07-12 22:12:58.752 +01:00 [DBG] Request matched endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:12:58.754 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-12 22:12:58.758 +01:00 [INF] Executing endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:12:58.791 +01:00 [INF] Route matched with {action = "RequestBvn", controller = "Bank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RequestBvn(DacBackend.Model.Dto.RequestDto) on controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend).
+2023-07-12 22:12:58.793 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-12 22:12:58.794 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-12 22:12:58.796 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-12 22:12:58.798 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-12 22:12:58.799 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-12 22:12:58.800 +01:00 [DBG] Executing controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:12:58.811 +01:00 [DBG] Executed controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:12:58.828 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:12:58.834 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' using the name '' in request data ...
+2023-07-12 22:12:58.835 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-12 22:12:58.841 +01:00 [DBG] Connection id "0HMS33IMPS6QI", Request id "0HMS33IMPS6QI:00000001": started reading request body.
+2023-07-12 22:12:58.842 +01:00 [DBG] Connection id "0HMS33IMPS6QI", Request id "0HMS33IMPS6QI:00000001": done reading request body.
+2023-07-12 22:12:58.852 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DacBackend.Model.Dto.RequestDto'
+2023-07-12 22:12:58.853 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:12:58.853 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:12:58.854 +01:00 [DBG] Attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:12:58.863 +01:00 [DBG] Done attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:13:12.504 +01:00 [INF] Start processing HTTP request POST "https://nodered.dipolediamond.com/dac/account/bvn"
+2023-07-12 22:13:12.506 +01:00 [INF] Sending HTTP request POST "https://nodered.dipolediamond.com/dac/account/bvn"
+2023-07-12 22:13:13.117 +01:00 [INF] Received HTTP response headers after 606.7576ms - 200
+2023-07-12 22:13:13.121 +01:00 [INF] End processing HTTP request after 618.3661ms - 200
+2023-07-12 22:13:20.329 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-07-12 22:13:20.334 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-07-12 22:13:20.335 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-12 22:13:20.336 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-12 22:13:20.337 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-12 22:13:20.339 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'DacBackend.Model.Dto.BvnResponseDto'.
+2023-07-12 22:13:20.353 +01:00 [INF] Executed action DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend) in 21547.1278ms
+2023-07-12 22:13:20.356 +01:00 [INF] Executed endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:13:20.359 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7272/api/bank/dac/bvn application/json 57 - 400 - application/json;+charset=utf-8 21629.4567ms
+2023-07-12 22:13:33.153 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7272/api/bank/dac/bvn application/json 57
+2023-07-12 22:13:33.155 +01:00 [DBG] 1 candidate(s) found for the request path '/api/bank/dac/bvn'
+2023-07-12 22:13:33.156 +01:00 [DBG] Endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)' with route pattern 'api/bank/dac/bvn' is valid for the request path '/api/bank/dac/bvn'
+2023-07-12 22:13:33.158 +01:00 [DBG] Request matched endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:13:33.159 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-12 22:13:33.160 +01:00 [INF] Executing endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:13:33.161 +01:00 [INF] Route matched with {action = "RequestBvn", controller = "Bank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RequestBvn(DacBackend.Model.Dto.RequestDto) on controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend).
+2023-07-12 22:13:33.163 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-12 22:13:33.164 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-12 22:13:33.164 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-12 22:13:33.165 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-12 22:13:33.166 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-12 22:13:33.167 +01:00 [DBG] Executing controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:13:33.169 +01:00 [DBG] Executed controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:13:33.171 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:13:33.173 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' using the name '' in request data ...
+2023-07-12 22:13:33.174 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-12 22:13:33.175 +01:00 [DBG] Connection id "0HMS33IMPS6QI", Request id "0HMS33IMPS6QI:00000003": started reading request body.
+2023-07-12 22:13:33.176 +01:00 [DBG] Connection id "0HMS33IMPS6QI", Request id "0HMS33IMPS6QI:00000003": done reading request body.
+2023-07-12 22:13:33.177 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DacBackend.Model.Dto.RequestDto'
+2023-07-12 22:13:33.177 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:13:33.178 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:13:33.178 +01:00 [DBG] Attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:13:33.179 +01:00 [DBG] Done attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:14:05.590 +01:00 [INF] Start processing HTTP request POST "https://nodered.dipolediamond.com/dac/account/bvn"
+2023-07-12 22:14:05.598 +01:00 [INF] Sending HTTP request POST "https://nodered.dipolediamond.com/dac/account/bvn"
+2023-07-12 22:14:05.737 +01:00 [INF] Received HTTP response headers after 131.748ms - 200
+2023-07-12 22:14:05.738 +01:00 [INF] End processing HTTP request after 147.4835ms - 200
+2023-07-12 22:16:20.598 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-07-12 22:16:20.624 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-07-12 22:16:20.630 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-12 22:16:20.631 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-12 22:16:20.632 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-12 22:16:20.633 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'DacBackend.Model.Dto.BvnResponseDto'.
+2023-07-12 22:16:20.635 +01:00 [INF] Executed action DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend) in 167467.5542ms
+2023-07-12 22:16:20.636 +01:00 [INF] Executed endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:16:20.638 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7272/api/bank/dac/bvn application/json 57 - 400 - application/json;+charset=utf-8 167484.0724ms
+2023-07-12 22:16:20.643 +01:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IAccountHttpService'
+2023-07-12 22:16:30.658 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:16:30.664 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0395ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:16:40.679 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:16:40.681 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:16:50.684 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:16:50.684 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:17:00.702 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:17:00.703 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:17:10.718 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:17:10.719 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:17:20.730 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:17:20.731 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:17:30.740 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:17:30.741 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:17:40.744 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:17:40.745 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:17:50.757 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:17:50.758 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:18:00.767 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:18:00.768 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:18:10.775 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:18:10.777 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:18:20.794 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:18:20.795 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:18:30.800 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:18:30.802 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:18:40.815 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:18:40.816 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:18:50.828 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:18:50.829 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:19:00.833 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:19:00.834 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:19:10.844 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:19:10.845 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:19:20.862 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:19:20.863 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.005ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:19:30.874 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:19:30.876 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.2067ms - processed: 1 items - remaining: 0 items
+2023-07-12 22:19:53.340 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-12 22:19:53.644 +01:00 [DBG] Hosting starting
+2023-07-12 22:19:54.111 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 00D5B8A748A32CF248CC35D3C1B514BD27DFD320)
+2023-07-12 22:19:54.261 +01:00 [INF] Now listening on: https://localhost:7272
+2023-07-12 22:19:54.276 +01:00 [INF] Now listening on: http://localhost:5000
+2023-07-12 22:19:54.277 +01:00 [DBG] Loaded hosting startup assembly DipoleDacCustomerAgentBackend
+2023-07-12 22:19:54.282 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-12 22:19:54.284 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-12 22:19:54.285 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-12 22:19:54.287 +01:00 [INF] Hosting environment: Development
+2023-07-12 22:19:54.290 +01:00 [INF] Content root path: C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\
+2023-07-12 22:19:54.295 +01:00 [DBG] Hosting started
+2023-07-12 22:19:54.502 +01:00 [DBG] Connection id "0HMS33MUA25T5" received FIN.
+2023-07-12 22:19:54.516 +01:00 [DBG] Connection id "0HMS33MUA25T6" received FIN.
+2023-07-12 22:19:54.517 +01:00 [DBG] Connection id "0HMS33MUA25T6" accepted.
+2023-07-12 22:19:54.524 +01:00 [DBG] Connection id "0HMS33MUA25T5" accepted.
+2023-07-12 22:19:54.538 +01:00 [DBG] Connection id "0HMS33MUA25T5" started.
+2023-07-12 22:19:54.538 +01:00 [DBG] Connection id "0HMS33MUA25T6" started.
+2023-07-12 22:19:54.739 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 22:19:54.739 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 22:19:54.825 +01:00 [DBG] Connection id "0HMS33MUA25T5" stopped.
+2023-07-12 22:19:54.825 +01:00 [DBG] Connection id "0HMS33MUA25T6" stopped.
+2023-07-12 22:19:54.831 +01:00 [DBG] Connection id "0HMS33MUA25T6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 22:19:54.831 +01:00 [DBG] Connection id "0HMS33MUA25T5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 22:19:56.428 +01:00 [DBG] Connection id "0HMS33MUA25T7" accepted.
+2023-07-12 22:19:56.798 +01:00 [DBG] Connection id "0HMS33MUA25T7" started.
+2023-07-12 22:19:56.877 +01:00 [DBG] Connection 0HMS33MUA25T7 established using the following protocol: "Tls13"
+2023-07-12 22:19:56.993 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/index.html - -
+2023-07-12 22:19:57.062 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-12 22:19:57.101 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-12 22:19:57.103 +01:00 [DBG] Request did not match any endpoints
+2023-07-12 22:19:57.305 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-12 22:19:57.653 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-12 22:19:57.663 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/index.html - - - 200 - text/html;charset=utf-8 677.5211ms
+2023-07-12 22:19:58.343 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_vs/browserLink - -
+2023-07-12 22:19:58.343 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - -
+2023-07-12 22:19:58.358 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - - - 200 12028 application/javascript;+charset=utf-8 15.0841ms
+2023-07-12 22:19:58.375 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.1787ms
+2023-07-12 22:19:58.521 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - -
+2023-07-12 22:19:58.523 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-12 22:19:58.525 +01:00 [DBG] Request did not match any endpoints
+2023-07-12 22:19:58.731 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 210.0611ms
+2023-07-12 22:20:01.693 +01:00 [DBG] Connection id "0HMS33MUA25T7" received FIN.
+2023-07-12 22:20:01.702 +01:00 [DBG] Connection id "0HMS33MUA25T7" is closed. The last processed stream ID was 7.
+2023-07-12 22:20:01.705 +01:00 [DBG] Connection id "0HMS33MUA25T7" sending FIN because: "The client closed the connection."
+2023-07-12 22:20:01.715 +01:00 [DBG] Connection id "0HMS33MUA25T7" stopped.
+2023-07-12 22:20:32.016 +01:00 [DBG] Connection id "0HMS33MUA25T8" accepted.
+2023-07-12 22:20:32.037 +01:00 [DBG] Connection id "0HMS33MUA25T8" started.
+2023-07-12 22:20:32.061 +01:00 [DBG] Connection 0HMS33MUA25T8 established using the following protocol: "Tls13"
+2023-07-12 22:20:32.068 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7272/api/bank/dac/bvn application/json 57
+2023-07-12 22:20:32.087 +01:00 [DBG] 1 candidate(s) found for the request path '/api/bank/dac/bvn'
+2023-07-12 22:20:32.094 +01:00 [DBG] Endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)' with route pattern 'api/bank/dac/bvn' is valid for the request path '/api/bank/dac/bvn'
+2023-07-12 22:20:32.096 +01:00 [DBG] Request matched endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:20:32.099 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-12 22:20:32.103 +01:00 [INF] Executing endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:20:32.137 +01:00 [INF] Route matched with {action = "RequestBvn", controller = "Bank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RequestBvn(DacBackend.Model.Dto.RequestDto) on controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend).
+2023-07-12 22:20:32.139 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-12 22:20:32.140 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-12 22:20:32.141 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-12 22:20:32.142 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-12 22:20:32.143 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-12 22:20:32.144 +01:00 [DBG] Executing controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:20:32.157 +01:00 [DBG] Executed controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:20:32.178 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:20:32.183 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' using the name '' in request data ...
+2023-07-12 22:20:32.186 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-12 22:20:32.193 +01:00 [DBG] Connection id "0HMS33MUA25T8", Request id "0HMS33MUA25T8:00000001": started reading request body.
+2023-07-12 22:20:32.194 +01:00 [DBG] Connection id "0HMS33MUA25T8", Request id "0HMS33MUA25T8:00000001": done reading request body.
+2023-07-12 22:20:32.205 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DacBackend.Model.Dto.RequestDto'
+2023-07-12 22:20:32.206 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:20:32.207 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:20:32.208 +01:00 [DBG] Attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:20:32.220 +01:00 [DBG] Done attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:20:40.683 +01:00 [INF] Start processing HTTP request POST "https://nodered.dipolediamond.com/dac/account/bvn"
+2023-07-12 22:20:40.686 +01:00 [INF] Sending HTTP request POST "https://nodered.dipolediamond.com/dac/account/bvn"
+2023-07-12 22:20:41.295 +01:00 [INF] Received HTTP response headers after 602.1394ms - 200
+2023-07-12 22:20:41.298 +01:00 [INF] End processing HTTP request after 615.606ms - 200
+2023-07-12 22:29:53.617 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-12 22:29:53.994 +01:00 [DBG] Hosting starting
+2023-07-12 22:29:54.477 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 00D5B8A748A32CF248CC35D3C1B514BD27DFD320)
+2023-07-12 22:29:54.568 +01:00 [INF] Now listening on: https://localhost:7272
+2023-07-12 22:29:54.569 +01:00 [INF] Now listening on: http://localhost:5000
+2023-07-12 22:29:54.570 +01:00 [DBG] Loaded hosting startup assembly DipoleDacCustomerAgentBackend
+2023-07-12 22:29:54.570 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-12 22:29:54.571 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-12 22:29:54.573 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-12 22:29:54.574 +01:00 [INF] Hosting environment: Development
+2023-07-12 22:29:54.584 +01:00 [INF] Content root path: C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\
+2023-07-12 22:29:54.615 +01:00 [DBG] Hosting started
+2023-07-12 22:29:54.620 +01:00 [DBG] Connection id "0HMS33SH57FIO" received FIN.
+2023-07-12 22:29:54.620 +01:00 [DBG] Connection id "0HMS33SH57FIN" received FIN.
+2023-07-12 22:29:54.640 +01:00 [DBG] Connection id "0HMS33SH57FIN" accepted.
+2023-07-12 22:29:54.640 +01:00 [DBG] Connection id "0HMS33SH57FIO" accepted.
+2023-07-12 22:29:54.644 +01:00 [DBG] Connection id "0HMS33SH57FIN" started.
+2023-07-12 22:29:54.644 +01:00 [DBG] Connection id "0HMS33SH57FIO" started.
+2023-07-12 22:29:54.809 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 22:29:54.809 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 22:29:54.883 +01:00 [DBG] Connection id "0HMS33SH57FIO" stopped.
+2023-07-12 22:29:54.883 +01:00 [DBG] Connection id "0HMS33SH57FIN" stopped.
+2023-07-12 22:29:54.896 +01:00 [DBG] Connection id "0HMS33SH57FIO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 22:29:54.896 +01:00 [DBG] Connection id "0HMS33SH57FIN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 22:29:56.201 +01:00 [DBG] Connection id "0HMS33SH57FIP" accepted.
+2023-07-12 22:29:56.256 +01:00 [DBG] Connection id "0HMS33SH57FIP" started.
+2023-07-12 22:29:56.667 +01:00 [DBG] Connection 0HMS33SH57FIP established using the following protocol: "Tls13"
+2023-07-12 22:29:56.883 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/index.html - -
+2023-07-12 22:29:57.023 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-12 22:29:57.096 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-12 22:29:57.102 +01:00 [DBG] Request did not match any endpoints
+2023-07-12 22:29:57.761 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-12 22:29:58.016 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-12 22:29:58.023 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/index.html - - - 200 - text/html;charset=utf-8 1165.6526ms
+2023-07-12 22:29:58.306 +01:00 [DBG] Connection id "0HMS33SH57FIP" received FIN.
+2023-07-12 22:29:58.328 +01:00 [DBG] Connection id "0HMS33SH57FIP" is closed. The last processed stream ID was 1.
+2023-07-12 22:29:58.330 +01:00 [DBG] Connection id "0HMS33SH57FIP" sending FIN because: "The client closed the connection."
+2023-07-12 22:29:58.344 +01:00 [DBG] Connection id "0HMS33SH57FIP" stopped.
+2023-07-12 22:30:53.766 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-12 22:30:54.219 +01:00 [DBG] Hosting starting
+2023-07-12 22:30:54.668 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 00D5B8A748A32CF248CC35D3C1B514BD27DFD320)
+2023-07-12 22:30:54.797 +01:00 [INF] Now listening on: https://localhost:7272
+2023-07-12 22:30:54.801 +01:00 [INF] Now listening on: http://localhost:5000
+2023-07-12 22:30:54.803 +01:00 [DBG] Loaded hosting startup assembly DipoleDacCustomerAgentBackend
+2023-07-12 22:30:54.807 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-12 22:30:54.808 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-12 22:30:54.810 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-12 22:30:54.818 +01:00 [INF] Hosting environment: Development
+2023-07-12 22:30:54.820 +01:00 [INF] Content root path: C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\
+2023-07-12 22:30:54.823 +01:00 [DBG] Hosting started
+2023-07-12 22:30:55.080 +01:00 [DBG] Connection id "0HMS33T35QB7K" received FIN.
+2023-07-12 22:30:55.087 +01:00 [DBG] Connection id "0HMS33T35QB7L" received FIN.
+2023-07-12 22:30:55.094 +01:00 [DBG] Connection id "0HMS33T35QB7L" accepted.
+2023-07-12 22:30:55.094 +01:00 [DBG] Connection id "0HMS33T35QB7K" accepted.
+2023-07-12 22:30:55.098 +01:00 [DBG] Connection id "0HMS33T35QB7K" started.
+2023-07-12 22:30:55.098 +01:00 [DBG] Connection id "0HMS33T35QB7L" started.
+2023-07-12 22:30:55.268 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 22:30:55.268 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 22:30:55.352 +01:00 [DBG] Connection id "0HMS33T35QB7K" stopped.
+2023-07-12 22:30:55.352 +01:00 [DBG] Connection id "0HMS33T35QB7L" stopped.
+2023-07-12 22:30:55.357 +01:00 [DBG] Connection id "0HMS33T35QB7K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 22:30:55.357 +01:00 [DBG] Connection id "0HMS33T35QB7L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 22:30:56.749 +01:00 [DBG] Connection id "0HMS33T35QB7M" accepted.
+2023-07-12 22:30:56.884 +01:00 [DBG] Connection id "0HMS33T35QB7M" started.
+2023-07-12 22:30:57.075 +01:00 [DBG] Connection 0HMS33T35QB7M established using the following protocol: "Tls13"
+2023-07-12 22:30:57.180 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/index.html - -
+2023-07-12 22:30:57.252 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-12 22:30:57.293 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-12 22:30:57.295 +01:00 [DBG] Request did not match any endpoints
+2023-07-12 22:30:57.762 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-12 22:30:58.062 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-12 22:30:58.074 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/index.html - - - 200 - text/html;charset=utf-8 898.8638ms
+2023-07-12 22:30:58.812 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_vs/browserLink - -
+2023-07-12 22:30:58.813 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - -
+2023-07-12 22:30:58.859 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - - - 200 12028 application/javascript;+charset=utf-8 46.1413ms
+2023-07-12 22:30:58.874 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.8089ms
+2023-07-12 22:30:59.030 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - -
+2023-07-12 22:30:59.031 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-12 22:30:59.034 +01:00 [DBG] Request did not match any endpoints
+2023-07-12 22:30:59.255 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 225.4942ms
+2023-07-12 22:31:02.272 +01:00 [DBG] Connection id "0HMS33T35QB7M" received FIN.
+2023-07-12 22:31:02.282 +01:00 [DBG] Connection id "0HMS33T35QB7M" is closed. The last processed stream ID was 7.
+2023-07-12 22:31:02.284 +01:00 [DBG] Connection id "0HMS33T35QB7M" sending FIN because: "The client closed the connection."
+2023-07-12 22:31:02.295 +01:00 [DBG] Connection id "0HMS33T35QB7M" stopped.
+2023-07-12 22:31:46.975 +01:00 [DBG] Connection id "0HMS33T35QB7N" accepted.
+2023-07-12 22:31:46.992 +01:00 [DBG] Connection id "0HMS33T35QB7N" started.
+2023-07-12 22:31:47.060 +01:00 [DBG] Connection 0HMS33T35QB7N established using the following protocol: "Tls13"
+2023-07-12 22:31:47.064 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7272/api/bank/dac/bvn application/json 57
+2023-07-12 22:31:47.076 +01:00 [DBG] 1 candidate(s) found for the request path '/api/bank/dac/bvn'
+2023-07-12 22:31:47.082 +01:00 [DBG] Endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)' with route pattern 'api/bank/dac/bvn' is valid for the request path '/api/bank/dac/bvn'
+2023-07-12 22:31:47.085 +01:00 [DBG] Request matched endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:31:47.088 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-12 22:31:47.092 +01:00 [INF] Executing endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:31:47.136 +01:00 [INF] Route matched with {action = "RequestBvn", controller = "Bank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RequestBvn(DacBackend.Model.Dto.RequestDto) on controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend).
+2023-07-12 22:31:47.139 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-12 22:31:47.140 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-12 22:31:47.141 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-12 22:31:47.142 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-12 22:31:47.143 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-12 22:31:47.145 +01:00 [DBG] Executing controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:31:47.162 +01:00 [DBG] Executed controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-12 22:31:47.180 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:31:47.187 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' using the name '' in request data ...
+2023-07-12 22:31:47.189 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-12 22:31:47.211 +01:00 [DBG] Connection id "0HMS33T35QB7N", Request id "0HMS33T35QB7N:00000001": started reading request body.
+2023-07-12 22:31:47.212 +01:00 [DBG] Connection id "0HMS33T35QB7N", Request id "0HMS33T35QB7N:00000001": done reading request body.
+2023-07-12 22:31:47.241 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DacBackend.Model.Dto.RequestDto'
+2023-07-12 22:31:47.241 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:31:47.242 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:31:47.243 +01:00 [DBG] Attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-12 22:31:47.255 +01:00 [DBG] Done attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-12 22:32:29.392 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-07-12 22:32:29.396 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-07-12 22:32:29.396 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-12 22:32:29.397 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-12 22:32:29.398 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-12 22:32:29.399 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'DacBackend.Model.Dto.BvnResponseDto'.
+2023-07-12 22:32:29.426 +01:00 [INF] Executed action DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend) in 42272.7549ms
+2023-07-12 22:32:29.429 +01:00 [INF] Executed endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-12 22:32:29.431 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7272/api/bank/dac/bvn application/json 57 - 400 - application/json;+charset=utf-8 42368.5380ms
+2023-07-12 22:33:47.173 +01:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IAccountHttpService'
+2023-07-12 22:33:57.183 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:33:57.190 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.068ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:34:07.207 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:34:07.208 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:34:17.209 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:34:17.211 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:34:27.215 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:34:27.216 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:34:37.221 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:34:37.223 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:34:47.228 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:34:47.229 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:34:57.245 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:34:57.246 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:35:07.259 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:35:07.261 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:35:17.267 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:35:17.269 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:35:27.274 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:35:27.275 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:35:37.282 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:35:37.282 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:35:47.289 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:35:47.290 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:35:57.306 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:35:57.308 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:36:07.325 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:36:07.326 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:36:17.331 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:36:17.333 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:36:27.348 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:36:27.348 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:36:37.357 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:36:37.358 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:36:47.367 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:36:47.368 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:36:57.376 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:36:57.378 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:37:07.383 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:37:07.385 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:37:17.397 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:37:17.398 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:37:27.401 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:37:27.403 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:37:37.407 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:37:37.409 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:37:47.423 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:37:47.425 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:37:57.437 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:37:57.439 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:38:07.455 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:38:07.456 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:38:17.473 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:38:17.474 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:38:27.484 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:38:27.485 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:38:37.496 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:38:37.496 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:38:47.498 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:38:47.500 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:38:57.505 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:38:57.505 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:39:07.509 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:39:07.510 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:39:17.513 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:39:17.524 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:39:27.538 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:39:27.539 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:39:37.546 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:39:37.547 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:39:47.553 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:39:47.554 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:39:57.568 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:39:57.569 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0013ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:40:07.582 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:40:07.583 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:40:17.593 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:40:17.594 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:40:27.609 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:40:27.610 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:40:37.615 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:40:37.616 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:40:47.626 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:40:47.627 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:40:57.632 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:40:57.633 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:41:07.647 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:41:07.648 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:41:17.649 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:41:17.650 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:41:27.655 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:41:27.656 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:41:37.660 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:41:37.661 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:41:47.676 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:41:47.676 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:41:57.689 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:41:57.690 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:42:07.707 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:42:07.708 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:42:17.712 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:42:17.713 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:42:27.727 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:42:27.728 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:42:37.731 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:42:37.732 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:42:47.733 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:42:47.734 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:42:57.742 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:42:57.743 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:43:07.758 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:43:07.759 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:43:17.763 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:43:17.763 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:43:27.765 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:43:27.771 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:43:37.787 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:43:37.788 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:43:47.791 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:43:47.792 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:43:57.794 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:43:57.796 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:44:07.813 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:44:07.814 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:44:17.825 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:44:17.826 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:44:27.832 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:44:27.833 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:44:37.839 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:44:37.841 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:44:47.843 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:44:47.845 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:44:57.850 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:44:57.852 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:45:07.860 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:45:07.861 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:45:17.869 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:45:17.872 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:45:27.877 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:45:27.878 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:45:37.891 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:45:37.891 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:45:47.904 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:45:47.906 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:45:57.912 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:45:57.914 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0054ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:46:07.922 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:46:07.923 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:46:17.932 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:46:17.933 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:46:27.937 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:46:27.938 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:46:37.946 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:46:37.947 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:46:47.953 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-12 22:46:47.956 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-12 22:46:49.446 +01:00 [DBG] Connection id "0HMS33T35QB7N" received FIN.
+2023-07-12 22:46:49.458 +01:00 [DBG] Connection id "0HMS33T35QB7N" is closed. The last processed stream ID was 1.
+2023-07-12 22:46:49.484 +01:00 [DBG] Connection id "0HMS33T35QB7N" sending FIN because: "The client closed the connection."
+2023-07-12 22:46:49.496 +01:00 [DBG] Connection id "0HMS33T35QB7N" stopped.

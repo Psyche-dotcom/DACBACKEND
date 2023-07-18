@@ -1,0 +1,439 @@
+2023-07-13 09:26:42.894 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-13 09:26:43.571 +01:00 [DBG] Hosting starting
+2023-07-13 09:26:44.928 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 00D5B8A748A32CF248CC35D3C1B514BD27DFD320)
+2023-07-13 09:26:45.025 +01:00 [INF] Now listening on: https://localhost:7272
+2023-07-13 09:26:45.099 +01:00 [INF] Now listening on: http://localhost:5000
+2023-07-13 09:26:45.105 +01:00 [DBG] Loaded hosting startup assembly DipoleDacCustomerAgentBackend
+2023-07-13 09:26:45.107 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-13 09:26:45.108 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-13 09:26:45.110 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-13 09:26:45.113 +01:00 [INF] Hosting environment: Development
+2023-07-13 09:26:45.117 +01:00 [INF] Content root path: C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\
+2023-07-13 09:26:45.120 +01:00 [DBG] Hosting started
+2023-07-13 09:26:45.225 +01:00 [DBG] Connection id "0HMS3FBIDV6G8" accepted.
+2023-07-13 09:26:45.244 +01:00 [DBG] Connection id "0HMS3FBIDV6G8" started.
+2023-07-13 09:26:45.261 +01:00 [DBG] Connection id "0HMS3FBIDV6G9" accepted.
+2023-07-13 09:26:45.267 +01:00 [DBG] Connection id "0HMS3FBIDV6G9" started.
+2023-07-13 09:26:54.582 +01:00 [DBG] Connection id "0HMS3FBIDV6GA" accepted.
+2023-07-13 09:26:54.597 +01:00 [DBG] Connection id "0HMS3FBIDV6GA" started.
+2023-07-13 09:26:54.936 +01:00 [DBG] Connection 0HMS3FBIDV6GA established using the following protocol: "Tls13"
+2023-07-13 09:26:55.141 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/index.html - -
+2023-07-13 09:26:55.464 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-13 09:26:55.543 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-07-13 09:26:55.543 +01:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-07-13 09:26:55.556 +01:00 [DBG] Connection id "0HMS3FBIDV6G9" stopped.
+2023-07-13 09:26:55.556 +01:00 [DBG] Connection id "0HMS3FBIDV6G8" stopped.
+2023-07-13 09:26:55.561 +01:00 [DBG] Connection id "0HMS3FBIDV6G9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-13 09:26:55.561 +01:00 [DBG] Connection id "0HMS3FBIDV6G8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-13 09:26:55.628 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-13 09:26:55.630 +01:00 [DBG] Request did not match any endpoints
+2023-07-13 09:26:56.334 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-13 09:26:57.027 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-13 09:26:57.041 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/index.html - - - 200 - text/html;charset=utf-8 1910.5787ms
+2023-07-13 09:26:57.466 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_vs/browserLink - -
+2023-07-13 09:26:57.467 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 09:26:57.494 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - - - 200 12028 application/javascript;+charset=utf-8 26.9849ms
+2023-07-13 09:26:57.701 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 234.8211ms
+2023-07-13 09:26:57.838 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - -
+2023-07-13 09:26:57.839 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-13 09:26:57.841 +01:00 [DBG] Request did not match any endpoints
+2023-07-13 09:26:58.148 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 310.1018ms
+2023-07-13 09:27:01.378 +01:00 [DBG] Connection id "0HMS3FBIDV6GA" received FIN.
+2023-07-13 09:27:01.393 +01:00 [DBG] Connection id "0HMS3FBIDV6GA" is closed. The last processed stream ID was 7.
+2023-07-13 09:27:01.396 +01:00 [DBG] Connection id "0HMS3FBIDV6GA" sending FIN because: "The client closed the connection."
+2023-07-13 09:27:01.412 +01:00 [DBG] Connection id "0HMS3FBIDV6GA" stopped.
+2023-07-13 09:28:27.649 +01:00 [DBG] Connection id "0HMS3FBIDV6GB" accepted.
+2023-07-13 09:28:27.662 +01:00 [DBG] Connection id "0HMS3FBIDV6GB" started.
+2023-07-13 09:28:27.723 +01:00 [DBG] Connection 0HMS3FBIDV6GB established using the following protocol: "Tls13"
+2023-07-13 09:28:27.729 +01:00 [INF] Request starting HTTP/2 POST https://localhost:7272/api/bank/dac/bvn application/json 65
+2023-07-13 09:28:27.782 +01:00 [DBG] 1 candidate(s) found for the request path '/api/bank/dac/bvn'
+2023-07-13 09:28:27.791 +01:00 [DBG] Endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)' with route pattern 'api/bank/dac/bvn' is valid for the request path '/api/bank/dac/bvn'
+2023-07-13 09:28:27.794 +01:00 [DBG] Request matched endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-13 09:28:27.799 +01:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-07-13 09:28:27.807 +01:00 [INF] Executing endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-13 09:28:27.906 +01:00 [INF] Route matched with {action = "RequestBvn", controller = "Bank"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] RequestBvn(DacBackend.Model.Dto.RequestDto) on controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend).
+2023-07-13 09:28:27.911 +01:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-07-13 09:28:27.914 +01:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-07-13 09:28:27.916 +01:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-07-13 09:28:27.918 +01:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-07-13 09:28:27.920 +01:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-07-13 09:28:27.925 +01:00 [DBG] Executing controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-13 09:28:27.966 +01:00 [DBG] Executed controller factory for controller DipoleDacCustomerAgentBackend.Controllers.BankController (DipoleDacCustomerAgentBackend)
+2023-07-13 09:28:28.008 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-13 09:28:28.016 +01:00 [DBG] Attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' using the name '' in request data ...
+2023-07-13 09:28:28.020 +01:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2023-07-13 09:28:28.055 +01:00 [DBG] Connection id "0HMS3FBIDV6GB", Request id "0HMS3FBIDV6GB:00000001": started reading request body.
+2023-07-13 09:28:28.059 +01:00 [DBG] Connection id "0HMS3FBIDV6GB", Request id "0HMS3FBIDV6GB:00000001": done reading request body.
+2023-07-13 09:28:28.118 +01:00 [DBG] JSON input formatter succeeded, deserializing to type 'DacBackend.Model.Dto.RequestDto'
+2023-07-13 09:28:28.121 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-13 09:28:28.122 +01:00 [DBG] Done attempting to bind parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-13 09:28:28.124 +01:00 [DBG] Attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto' ...
+2023-07-13 09:28:28.148 +01:00 [DBG] Done attempting to validate the bound parameter 'requestBvnDto' of type 'DacBackend.Model.Dto.RequestDto'.
+2023-07-13 09:29:23.751 +01:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-07-13 09:29:23.761 +01:00 [DBG] No information found on request to perform content negotiation.
+2023-07-13 09:29:23.762 +01:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-13 09:29:23.763 +01:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-13 09:29:23.773 +01:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-07-13 09:29:23.777 +01:00 [INF] Executing BadRequestObjectResult, writing value of type 'DacBackend.Model.Dto.BvnResponseDto'.
+2023-07-13 09:29:23.840 +01:00 [INF] Executed action DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend) in 55894.5937ms
+2023-07-13 09:29:23.847 +01:00 [INF] Executed endpoint 'DipoleDacCustomerAgentBackend.Controllers.BankController.RequestBvn (DipoleDacCustomerAgentBackend)'
+2023-07-13 09:29:23.852 +01:00 [INF] Request finished HTTP/2 POST https://localhost:7272/api/bank/dac/bvn application/json 65 - 400 - application/json;+charset=utf-8 56123.4793ms
+2023-07-13 09:30:27.992 +01:00 [DBG] HttpMessageHandler expired after 120000ms for client 'IAccountHttpService'
+2023-07-13 09:30:38.010 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:30:38.019 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.194ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:30:48.038 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:30:48.040 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0062ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:30:58.055 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:30:58.058 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:31:08.064 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:31:08.067 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:31:18.079 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:31:18.080 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:31:28.091 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:31:28.092 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:31:38.102 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:31:38.103 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:31:48.112 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:31:48.113 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:31:58.128 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:31:58.128 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:32:08.132 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:32:08.133 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:32:18.151 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:32:18.154 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0303ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:32:28.169 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:32:28.170 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0319ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:32:38.183 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:32:38.184 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:32:48.187 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:32:48.189 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:32:58.202 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:32:58.203 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:33:08.208 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:33:08.210 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:33:18.216 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:33:18.216 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:33:28.227 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:33:28.228 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:33:38.242 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:33:38.243 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:33:48.255 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:33:48.256 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:33:58.264 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:33:58.265 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:34:08.268 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:34:08.269 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:34:18.282 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:34:18.284 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0057ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:34:28.302 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:34:28.306 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:34:38.322 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:34:38.324 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:34:48.341 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:34:48.344 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:34:58.347 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:34:58.351 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:35:08.367 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:35:08.369 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:35:18.381 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:35:18.382 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:35:28.400 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:35:28.401 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:35:38.414 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:35:38.415 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:35:48.431 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:35:48.432 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:35:58.445 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:35:58.446 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:36:08.464 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:36:08.465 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:36:18.482 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:36:18.483 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:36:28.495 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:36:28.496 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:36:38.500 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:36:38.501 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:36:48.509 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:36:48.511 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0039ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:36:58.514 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:36:58.516 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:37:08.526 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:37:08.527 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:37:18.541 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:37:18.542 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:37:28.560 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:37:28.561 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:37:38.582 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:37:38.582 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:37:48.595 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:37:48.597 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:37:58.615 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:37:58.616 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:38:08.634 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:38:08.635 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:38:18.637 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:38:18.638 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:38:28.641 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:38:28.643 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:38:38.657 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:38:38.658 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0012ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:38:48.671 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:38:48.673 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:38:58.684 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:38:58.687 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:39:08.702 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:39:08.703 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:39:18.720 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:39:18.721 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:39:28.733 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:39:28.734 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:39:38.748 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:39:38.749 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:39:48.758 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:39:48.759 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:39:55.914 +01:00 [DBG] Connection id "0HMS3FBIDV6GB" received FIN.
+2023-07-13 09:39:55.966 +01:00 [DBG] Connection id "0HMS3FBIDV6GB" is closed. The last processed stream ID was 1.
+2023-07-13 09:39:56.082 +01:00 [DBG] Connection id "0HMS3FBIDV6GB" sending FIN because: "The client closed the connection."
+2023-07-13 09:39:56.099 +01:00 [DBG] Connection id "0HMS3FBIDV6GB" stopped.
+2023-07-13 09:48:08.273 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:48:09.912 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:48:20.649 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:48:20.655 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:48:30.666 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:48:30.670 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:48:40.673 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:48:40.678 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:48:50.690 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:48:50.694 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:49:00.703 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:49:00.708 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:49:10.721 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:49:10.723 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:49:20.726 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:49:20.730 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:49:30.753 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:49:30.755 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:49:40.765 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:49:40.766 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:49:50.771 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:49:50.773 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:50:00.783 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:50:00.784 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:50:10.801 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:50:10.802 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:50:20.806 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:50:20.809 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0036ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:50:30.825 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:50:30.826 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:50:40.835 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:50:40.835 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0018ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:50:50.849 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:50:50.850 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:51:00.856 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:51:00.857 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:51:10.870 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:51:10.872 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:51:20.879 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:51:20.882 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:51:30.888 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:51:30.889 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:51:40.894 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:51:40.896 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0059ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:51:50.915 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:51:50.916 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:52:00.929 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:52:00.931 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:52:10.939 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:52:10.941 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:52:20.948 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:52:20.950 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0027ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:52:30.959 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:52:30.960 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:52:40.976 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:52:40.977 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:52:50.990 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:52:50.990 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:53:00.999 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:53:01.001 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:53:11.009 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:53:11.012 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:53:21.025 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:53:21.027 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:53:31.039 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:53:31.041 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:53:41.050 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:53:41.053 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:53:51.058 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:53:51.059 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:54:01.068 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:54:01.070 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:54:11.079 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:54:11.081 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:54:21.087 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:54:21.088 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:54:31.105 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:54:31.106 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:54:41.114 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:54:41.117 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:54:51.134 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:54:51.137 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0045ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:55:01.154 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:55:01.156 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:55:11.161 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:55:11.165 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:55:21.183 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:55:21.187 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:55:31.202 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:55:31.203 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:55:41.213 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:55:41.216 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:55:51.228 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:55:51.230 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.004ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:56:01.235 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:56:01.237 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:56:11.246 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:56:11.247 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0026ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:56:21.258 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:56:21.260 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:56:31.268 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:56:31.269 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:56:41.277 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:56:41.278 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0037ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:56:51.290 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:56:51.292 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:57:01.306 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:57:01.309 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:57:11.316 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:57:11.317 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:57:21.323 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:57:21.325 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:57:31.332 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:57:31.334 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:57:41.344 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:57:41.346 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.002ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:57:51.357 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:57:51.359 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:58:01.372 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:58:01.374 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0351ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:58:11.390 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:58:11.391 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:58:21.396 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:58:21.396 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0015ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:58:31.405 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:58:31.407 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0034ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:58:41.421 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:58:41.423 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0072ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:58:51.440 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:58:51.442 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0073ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:59:01.451 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:59:01.455 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:59:11.468 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:59:11.469 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:59:21.482 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:59:21.484 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:59:31.492 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:59:31.494 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:59:41.506 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:59:41.508 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0031ms - processed: 0 items - remaining: 1 items
+2023-07-13 09:59:51.512 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 09:59:51.514 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:00:01.518 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:00:01.521 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0038ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:00:11.537 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:00:11.540 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0041ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:00:21.551 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:00:21.552 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:00:31.568 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:00:31.569 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:00:41.578 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:00:41.579 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0017ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:00:51.596 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:00:51.598 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0021ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:01:01.607 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:01:01.607 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0014ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:01:11.615 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:01:11.617 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:01:21.623 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:01:21.625 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0035ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:01:31.634 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:01:31.636 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:01:41.644 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:01:41.645 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:01:51.659 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:01:51.660 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:02:01.678 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:02:01.680 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:02:11.685 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:02:11.687 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0033ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:02:21.691 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:02:21.694 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0029ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:02:31.699 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:02:31.701 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:02:41.705 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:02:41.711 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0019ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:02:51.718 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:02:51.719 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0028ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:03:01.730 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:03:01.731 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.003ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:03:11.742 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:03:11.743 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0042ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:03:21.747 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:03:21.747 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0016ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:03:31.764 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:03:31.767 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0025ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:03:41.772 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:03:41.775 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0032ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:03:51.783 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:03:51.784 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0023ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:04:01.793 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:04:01.796 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0022ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:04:11.801 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:04:11.803 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:04:21.806 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:04:21.807 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0024ms - processed: 0 items - remaining: 1 items
+2023-07-13 10:04:31.824 +01:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2023-07-13 10:04:31.825 +01:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.2846ms - processed: 1 items - remaining: 0 items
+2023-07-13 10:47:05.986 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-07-13 10:47:06.359 +01:00 [DBG] Hosting starting
+2023-07-13 10:47:06.966 +01:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 00D5B8A748A32CF248CC35D3C1B514BD27DFD320)
+2023-07-13 10:47:07.093 +01:00 [INF] Now listening on: https://localhost:7272
+2023-07-13 10:47:07.095 +01:00 [INF] Now listening on: http://localhost:5000
+2023-07-13 10:47:07.096 +01:00 [DBG] Loaded hosting startup assembly DipoleDacCustomerAgentBackend
+2023-07-13 10:47:07.098 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-13 10:47:07.098 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-13 10:47:07.100 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-13 10:47:07.101 +01:00 [INF] Hosting environment: Development
+2023-07-13 10:47:07.103 +01:00 [INF] Content root path: C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\
+2023-07-13 10:47:07.103 +01:00 [DBG] Hosting started
+2023-07-13 10:47:07.159 +01:00 [DBG] Connection id "0HMS3GOFFJ6UU" received FIN.
+2023-07-13 10:47:07.186 +01:00 [DBG] Connection id "0HMS3GOFFJ6UU" accepted.
+2023-07-13 10:47:07.195 +01:00 [DBG] Connection id "0HMS3GOFFJ6UU" started.
+2023-07-13 10:47:07.417 +01:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-13 10:47:07.631 +01:00 [DBG] Connection id "0HMS3GOFFJ6UU" stopped.
+2023-07-13 10:47:07.642 +01:00 [DBG] Connection id "0HMS3GOFFJ6UU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-13 10:47:09.146 +01:00 [DBG] Connection id "0HMS3GOFFJ6UV" accepted.
+2023-07-13 10:47:10.189 +01:00 [DBG] Connection id "0HMS3GOFFJ6UV" started.
+2023-07-13 10:47:10.498 +01:00 [DBG] Connection 0HMS3GOFFJ6UV established using the following protocol: "Tls13"
+2023-07-13 10:47:10.686 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/index.html - -
+2023-07-13 10:47:10.792 +01:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-07-13 10:47:10.843 +01:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-07-13 10:47:10.846 +01:00 [DBG] Request did not match any endpoints
+2023-07-13 10:47:11.421 +01:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-07-13 10:47:11.746 +01:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-07-13 10:47:11.770 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/index.html - - - 200 - text/html;charset=utf-8 1092.3250ms
+2023-07-13 10:47:12.503 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - -
+2023-07-13 10:47:12.880 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/_vs/browserLink - -
+2023-07-13 10:47:12.896 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_framework/aspnetcore-browser-refresh.js - - - 200 12028 application/javascript;+charset=utf-8 392.0314ms
+2023-07-13 10:47:12.962 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 81.4609ms
+2023-07-13 10:47:13.080 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - -
+2023-07-13 10:47:13.082 +01:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-13 10:47:13.084 +01:00 [DBG] Request did not match any endpoints
+2023-07-13 10:47:13.365 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7272/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 284.3510ms
+2023-07-13 10:47:13.583 +01:00 [DBG] Connection id "0HMS3GOFFJ6UV" received FIN.
+2023-07-13 10:47:13.593 +01:00 [DBG] Connection id "0HMS3GOFFJ6UV" is closed. The last processed stream ID was 7.
+2023-07-13 10:47:13.595 +01:00 [DBG] Connection id "0HMS3GOFFJ6UV" sending FIN because: "The client closed the connection."
+2023-07-13 10:47:13.599 +01:00 [DBG] Connection id "0HMS3GOFFJ6UV" stopped.

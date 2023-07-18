@@ -2,11 +2,10 @@
 
 namespace DipoleDacCustomerAgentBackend.Profiles
 {
-    public class ProjectProfile :Profile
+    public class ProjectProfile : Profile
     {
         public ProjectProfile()
         {
-            
         }
     }
 }

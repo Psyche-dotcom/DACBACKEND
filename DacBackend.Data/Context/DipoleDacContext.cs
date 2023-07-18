@@ -6,7 +6,6 @@ namespace DacBackend.Data.Context
     {
         public DipoleDacContext(DbContextOptions<DipoleDacContext> options) : base(options)
         {
-
         }
     }
 }

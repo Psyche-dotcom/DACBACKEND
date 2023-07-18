@@ -7,7 +7,6 @@ namespace DipoleDacCustomerAgentBackend.Extension
     {
         public static void ConfigureDb(this IServiceCollection services, IConfiguration configuration)
         {
-
             services.AddDbContext<DipoleDacContext>(dbContextOptions => dbContextOptions.UseSqlite(configuration["ConnectionStrings:DipoleConnectionString"]));
         }
     }

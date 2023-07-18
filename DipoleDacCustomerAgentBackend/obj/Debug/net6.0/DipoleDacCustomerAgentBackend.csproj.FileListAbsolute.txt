@@ -160,3 +160,7 @@ C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\ob
 C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\obj\Debug\net6.0\DipoleDacCustomerAgentBackend.pdb
 C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\obj\Debug\net6.0\DipoleDacCustomerAgentBackend.genruntimeconfig.cache
 C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\obj\Debug\net6.0\ref\DipoleDacCustomerAgentBackend.dll
+C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\bin\Debug\net6.0\RestSharp.dll
+C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\bsahe\Documents\Git_Project\DACBACKEND\DipoleDacCustomerAgentBackend\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll

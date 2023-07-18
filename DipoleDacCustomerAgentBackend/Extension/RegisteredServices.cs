@@ -10,7 +10,6 @@ namespace DipoleDacCustomerAgentBackend.Extension
         {
             services.AddAutoMapper(typeof(ProjectProfile));
             services.AddHttpClient<IAccountHttpService, AccountHttpService>(client => client.BaseAddress = new Uri("https://nodered.dipolediamond.com/"));
-            //services.AddScoped<IAccountHttpService, AccountHttpService>();
         }
     }
 }
