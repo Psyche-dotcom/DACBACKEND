@@ -80,13 +80,7 @@ namespace DipoleDacCustomerAgentBackend.Service.Implementation
             return readResult;
         }
 
-        public async Task<BvnResponseDto> RequestUserBvn(RequestDto bvnDto)
-        {
-            var result = await _httpClient.PostAsJsonAsync("dac/account/bvn", bvnDto);
-            var readResult = await result.Content.ReadFromJsonAsync<BvnResponseDto>();
-            return readResult;
-
-        }
+       
 
         public async Task<BalanceDto> BalanceEnquiry(RequestDto balanceDto)
         {
@@ -146,6 +140,16 @@ namespace DipoleDacCustomerAgentBackend.Service.Implementation
             var content = new StringContent(jsonToSend, Encoding.UTF8, "application/json");
             var result = await _httpClient.PostAsync("dac/fip/charge-reversal", content);
             var readResult = await result.Content.ReadFromJsonAsync<ChargeReversalResponseDto>();
+            return readResult;
+        }
+
+        public async Task<LienResponseDto> RequestLien(RequestDto lienDto)
+        {
+            var jsonToSend = JsonSerializer.Serialize(lienDto);
+
+            var content = new StringContent(jsonToSend, Encoding.UTF8, "application/json");
+            var result = await _httpClient.PostAsync("dac/account/lien", content);
+            var readResult = await result.Content.ReadFromJsonAsync<LienResponseDto>();
             return readResult;
         }
     }
