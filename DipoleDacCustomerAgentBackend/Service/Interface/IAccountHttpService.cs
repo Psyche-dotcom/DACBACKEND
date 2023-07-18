@@ -17,5 +17,13 @@ namespace DipoleDacCustomerAgentBackend.Service.Interface
         Task<TransactionStatusResponseDto> RequestTransactionStatus(TransactionStatusRequestDto transactionstatus);
 
         Task<ValidateTokenResponseDto> RequestValidateToken(ValidateTokenRequestDto validatetoken);
+
+        Task<LienResponseDto> RequestLien(RequestDto lienDto);
+        Task<BalanceDto> BalanceEnquiry(RequestDto balanceDto);
+        Task<GetAccountsWithMobileResponse> GetAccountsWithMobile(RequestWithMobileNumberDto balanceDto);
+        Task<CustomerResponseDto> GetCustomerDetails(RequestCustomerDetailDto customerDetailDto);
+        Task<FetchPhoneEligibilityResponseDto> FetchLoanEligibility(FetchPhoneEligibilityRequestDto request);
+        Task<FIPInwardTransferStatusResponseDto> FipInwardTransferStatus(FIPInwardTransferStatusRequestDto request);
+        Task<ChargeReversalResponseDto> ChargeReversal(ChargeReversalRequestDto request);
     }
 }

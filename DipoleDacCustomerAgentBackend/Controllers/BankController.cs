@@ -91,5 +91,85 @@ namespace DipoleDacCustomerAgentBackend.Controllers
             }
             return BadRequest(response);
         }
+
+        [HttpPost("lien")]
+        public async Task<IActionResult> RequestLien(RequestDto requestBvnDto)
+        {
+            var response = await _accountHttp.RequestLien(requestBvnDto);
+
+            if (response.ResponseCode == 00)
+            {
+                return Ok(response);
+            }
+            return BadRequest(response);
+        }
+
+        [HttpPost("balance")]
+        public async Task<IActionResult> BalanceEnquiry(RequestDto request)
+        {
+            var response = await _accountHttp.BalanceEnquiry(request);
+
+            if (response.ResponseCode == 00)
+            {
+                return Ok(response);
+            }
+            return BadRequest(response);
+        }
+
+        [HttpPost("get-accounts-with-mobile")]
+        public async Task<IActionResult> GetAccountsWithMobile(RequestWithMobileNumberDto request)
+        {
+            var response = await _accountHttp.GetAccountsWithMobile(request);
+
+            if (response.ResponseCode == 00)
+            {
+                return Ok(response);
+            }
+            return BadRequest(response);
+        }
+
+        [HttpPost("get-customer-details")]
+        public async Task<IActionResult> GetCustomerDetails(RequestCustomerDetailDto request)
+        {
+            var response = await _accountHttp.GetCustomerDetails(request);
+
+            if (response.ResponseCode == 00)
+            {
+                return Ok(response);
+            }
+            return BadRequest(response);
+        }
+
+        [HttpPost("fetch-eligibility")]
+        public async Task<IActionResult> FetchLoanEligibility(FetchPhoneEligibilityRequestDto request)
+        {
+            var response = await _accountHttp.FetchLoanEligibility(request);
+
+            return Ok(response);
+        }
+
+        [HttpPost("inward-transfer-status")]
+        public async Task<IActionResult> FipInwardTransferStatus(FIPInwardTransferStatusRequestDto request)
+        {
+            var response = await _accountHttp.FipInwardTransferStatus(request);
+
+            if (response.ResponseCode == 00)
+            {
+                return Ok(response);
+            }
+            return BadRequest(response);
+        }
+
+        [HttpPost("charge-reversal")]
+        public async Task<IActionResult> ChargeReversal(ChargeReversalRequestDto request)
+        {
+            var response = await _accountHttp.ChargeReversal(request);
+
+            if (response.ResponseCode == 00)
+            {
+                return Ok(response);
+            }
+            return BadRequest(response);
+        }
     }
 }

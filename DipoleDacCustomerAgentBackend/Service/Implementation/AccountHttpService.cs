@@ -79,5 +79,74 @@ namespace DipoleDacCustomerAgentBackend.Service.Implementation
             var readResult = await result.Content.ReadFromJsonAsync<BaseResponseDto>();
             return readResult;
         }
+
+        public async Task<BvnResponseDto> RequestUserBvn(RequestDto bvnDto)
+        {
+            var result = await _httpClient.PostAsJsonAsync("dac/account/bvn", bvnDto);
+            var readResult = await result.Content.ReadFromJsonAsync<BvnResponseDto>();
+            return readResult;
+
+        }
+
+        public async Task<BalanceDto> BalanceEnquiry(RequestDto balanceDto)
+        {
+            var jsonToSend = JsonSerializer.Serialize(balanceDto);
+
+            var content = new StringContent(jsonToSend, Encoding.UTF8, "application/json");
+            var result = await _httpClient.PostAsync("dac/account/balance", content);
+            var readResult = await result.Content.ReadFromJsonAsync<BalanceDto>();
+            return readResult;
+        }
+
+        public async Task<GetAccountsWithMobileResponse> GetAccountsWithMobile(RequestWithMobileNumberDto balanceDto)
+        {
+            var jsonToSend = JsonSerializer.Serialize(balanceDto);
+
+            var content = new StringContent(jsonToSend, Encoding.UTF8, "application/json");
+            var result = await _httpClient.PostAsync("dac/account/get-accounts-with-mobile", content);
+            var readResult = await result.Content.ReadFromJsonAsync<GetAccountsWithMobileResponse>();
+            return readResult;
+        }
+
+        public async Task<CustomerResponseDto> GetCustomerDetails(RequestCustomerDetailDto customerDetailDto)
+        {
+            var jsonToSend = JsonSerializer.Serialize(customerDetailDto);
+
+            var content = new StringContent(jsonToSend, Encoding.UTF8, "application/json");
+            var result = await _httpClient.PostAsync("dac/customer/get-customer-details", content);
+            var readResult = await result.Content.ReadFromJsonAsync<CustomerResponseDto>();
+            var res = readResult;
+            return readResult;
+        }
+
+        public async Task<FetchPhoneEligibilityResponseDto> FetchLoanEligibility(FetchPhoneEligibilityRequestDto request)
+        {
+            var jsonToSend = JsonSerializer.Serialize(request);
+
+            var content = new StringContent(jsonToSend, Encoding.UTF8, "application/json");
+            var result = await _httpClient.PostAsync("dac/loan/fetch-eligibility", content);
+            var readResult = await result.Content.ReadFromJsonAsync<FetchPhoneEligibilityResponseDto>();
+            return readResult;
+        }
+
+        public async Task<FIPInwardTransferStatusResponseDto> FipInwardTransferStatus(FIPInwardTransferStatusRequestDto request)
+        {
+            var jsonToSend = JsonSerializer.Serialize(request);
+
+            var content = new StringContent(jsonToSend, Encoding.UTF8, "application/json");
+            var result = await _httpClient.PostAsync("dac/fip/inward-transfer-status", content);
+            var readResult = await result.Content.ReadFromJsonAsync<FIPInwardTransferStatusResponseDto>();
+            return readResult;
+        }
+
+        public async Task<ChargeReversalResponseDto> ChargeReversal(ChargeReversalRequestDto request)
+        {
+            var jsonToSend = JsonSerializer.Serialize(request);
+
+            var content = new StringContent(jsonToSend, Encoding.UTF8, "application/json");
+            var result = await _httpClient.PostAsync("dac/fip/charge-reversal", content);
+            var readResult = await result.Content.ReadFromJsonAsync<ChargeReversalResponseDto>();
+            return readResult;
+        }
     }
 }
