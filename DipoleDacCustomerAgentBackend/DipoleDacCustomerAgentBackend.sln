@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DipoleDacCustomerAgentBackend", "DipoleDacCustomerAgentBackend.csproj", "{C9F8F86A-9574-4092-8CEE-21E4F1B9B4C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DipoleDacCustomerAgentBackend", "DipoleDacCustomerAgentBackend.csproj", "{C9F8F86A-9574-4092-8CEE-21E4F1B9B4C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DacBackend.Data", "..\DacBackend.Data\DacBackend.Data.csproj", "{11CA1A12-5CE8-491A-80F1-29BC3F142AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DacBackend.Data", "..\DacBackend.Data\DacBackend.Data.csproj", "{11CA1A12-5CE8-491A-80F1-29BC3F142AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DacBackend.Model", "..\DacBackend.Model\DacBackend.Model.csproj", "{A040255C-410C-4FBC-A5EC-D849A0E731CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DacBackend.Model", "..\DacBackend.Model\DacBackend.Model.csproj", "{A040255C-410C-4FBC-A5EC-D849A0E731CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
