@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "DacBackend.Model": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:54013;http://localhost:54015"
+    }
+  }
+}

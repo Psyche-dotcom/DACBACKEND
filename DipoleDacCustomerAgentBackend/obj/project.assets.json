@@ -1088,8 +1088,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "DacBackend.Model": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.0"
+          "DacBackend.Model": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DacBackend.Data.dll": {}
