@@ -136,7 +136,6 @@ namespace DipoleDacCustomerAgentBackend.Service.Implementation
         public async Task<ChargeReversalResponseDto> ChargeReversal(ChargeReversalRequestDto request)
         {
             var jsonToSend = JsonSerializer.Serialize(request);
-
             var content = new StringContent(jsonToSend, Encoding.UTF8, "application/json");
             var result = await _httpClient.PostAsync("dac/fip/charge-reversal", content);
             var readResult = await result.Content.ReadFromJsonAsync<ChargeReversalResponseDto>();
@@ -146,7 +145,6 @@ namespace DipoleDacCustomerAgentBackend.Service.Implementation
         public async Task<LienResponseDto> RequestLien(RequestDto lienDto)
         {
             var jsonToSend = JsonSerializer.Serialize(lienDto);
-
             var content = new StringContent(jsonToSend, Encoding.UTF8, "application/json");
             var result = await _httpClient.PostAsync("dac/account/lien", content);
             var readResult = await result.Content.ReadFromJsonAsync<LienResponseDto>();

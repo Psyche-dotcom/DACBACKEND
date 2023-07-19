@@ -19,9 +19,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.ConfigureDb(builder.Configuration);
 builder.Services.ConfigureServices(builder.Configuration);
+builder.Services.AddHealthChecks();
 builder.Host.UseSerilog();
 var app = builder.Build();
-
+app.MapHealthChecks("/health");
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
